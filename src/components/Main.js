@@ -22,7 +22,7 @@ class Main extends Component {
     this.requestcontents = this.requestcontents.bind(this);
   }
 
-  handleChange(e){
+  async handleChange(e){
     this.setState({[e.target.name]: e.target.value});
   }
 
